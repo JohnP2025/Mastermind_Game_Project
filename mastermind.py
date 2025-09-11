@@ -12,7 +12,7 @@ sequence = random.choices(colors, k=4)
 
 guesses = 0
 
-print(sequence) #DEBUGGING ONLY
+# print(sequence) #DEBUGGING ONLY
 print(prompt)
 
 while guesses < maxGuesses:
@@ -68,3 +68,4 @@ while guesses < maxGuesses:
 
 print("Ran out of guesses! The sequence was: \n")
 print(sequence)
+
