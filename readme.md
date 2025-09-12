@@ -9,7 +9,7 @@ Must have python installed. Python can be installed [here](https://www.python.or
 ## Installation: 
 ```bash
 git clone https://github.com/JohnP2025/Mastermind_Game_Project.git
-cd Mastermind_Game_Project-1
+cd Mastermind_Game_Project
 ```
 
 ## Usage:
