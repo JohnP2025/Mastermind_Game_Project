@@ -7,10 +7,14 @@ A Python implementation of the *Mastermind* puzzle game.
 Must have python installed. Python can be installed [here](https://www.python.org/downloads/).
 
 ## Installation: 
+If you have GIT installed, you can use the below command-line installation:  
+
 ```bash
 git clone https://github.com/JohnP2025/Mastermind_Game_Project.git
-cd Mastermind_Game_Project-1
+cd Mastermind_Game_Project
 ```
+
+Alternatively, from the main page of this repository, you can select Code -> Download ZIP. Then extract the files to a desired directory, navigate to the install location in file explorer, right click the project directory, and select Open in Terminal.
 
 ## Usage:
     
@@ -36,5 +40,4 @@ TODO:
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
     
-
 
