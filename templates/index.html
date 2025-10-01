@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="../static/styles.css" type="text/css">
+        <meta charset="UTF-8">
+        <meta name="Description" content="Mastermind Puzzle Game Web Interface">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flask Mastermind</title>
+    </head>
+    <body>
+        <div id="game_id_container">
+            <p>Game ID: </p>
+            <p id="game_id", data-game-id=0>0</p> <!--TODO: Change to use DOM attribute instead of reading text field-->
+        </div>
+        <form id="input-form">
+            <!-- <div class="dropdown-container">
+                <label for="color1">First Color:</label> 
+                <select id="color1" name="color1"> 
+                    <option value="Pink" class="Pink">Pink</option> 
+                    <option value="Orange" class = "Orange">Orange</option>
+                    <option value="Yellow" class = "Yellow">Yellow</option>
+                    <option value="Green" class = "Green">Green</option>
+                    <option value="Cyan" class = "Cyan">Cyan</option>
+                    <option value="Indigo" class = "Indigo">Indigo</option>
+                </select>
+            </div>
+
+            <br>
+
+            -->
+
+            <button id="submit-button">Submit</button>
+
+            <div id="results">
+                <p id="guess-info">Take your first guess.</p>
+                <p id="status"></p>
+                <p id="remaining-guesses"></p>
+            </div>
+
+        </form>
+
+
+        <script src=../static/main.js></script>
+    </body>
+</html>
